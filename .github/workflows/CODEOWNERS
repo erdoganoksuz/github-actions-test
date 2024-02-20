@@ -1,0 +1,5 @@
+# .github/CODEOWNERS
+
+.github/* @erdoganoksuz
+.prettierrc @erdoganoksuz
+.eslintrc.js @erdoganoksuz
