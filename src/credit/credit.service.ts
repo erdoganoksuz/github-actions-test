@@ -1,10 +1,8 @@
 import { Injectable } from '@nestjs/common';
-import { CreateCreditDto } from './dto/create-credit.dto';
-import { UpdateCreditDto } from './dto/update-credit.dto';
 
 @Injectable()
 export class CreditService {
-  create(createCreditDto: CreateCreditDto) {
+  create() {
     return 'This action adds a new credit';
   }
 
@@ -16,7 +14,7 @@ export class CreditService {
     return `This action returns a #${id} credit`;
   }
 
-  update(id: number, updateCreditDto: UpdateCreditDto) {
+  update(id: number) {
     return `This action updates a #${id} credit`;
   }
 
