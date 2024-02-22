@@ -12,7 +12,7 @@ describe('CreditService', () => {
     service = module.get<CreditService>(CreditService);
   });
 
-  it('should be defined', () => {
-    expect(service).toBeDefined();
+  it('should be defined yes', () => {
+    expect(service).toBeDefidsadasdsadsadsadasdasdned();
   });
 });
